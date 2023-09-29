@@ -1,0 +1,96 @@
+.productForm {
+    margin-top: 15px;
+    padding: 15px;
+  }
+  .productForm .field-group {
+    display: flex;
+    margin-bottom: 0px;
+  }
+  .productForm form {
+    display: flex;
+    justify-content: space-between;
+  }
+  .productForm .field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px !important;
+    margin-right: 10px;
+  }
+  .productForm .field label.label {
+    margin-bottom: 0px;
+    margin-right: 10px;
+  }
+  .productForm input {
+    width: 100%;
+  }
+  .productForm h4.subtitle.is-3 {
+    margin-bottom: 0.75rem;
+  }
+  
+  .productList h1 {
+    font-size: 24px;
+  }
+  .productList .panel.bold {
+    font-weight: 600;
+  }
+  
+  .productList .panel {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 30px;
+  }
+  
+  .productList .note {
+    font-style: italic;
+    display: block;
+    margin: 40px 20px;
+  }
+  
+  .listHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .listHeader h3.title {
+    margin-bottom: 0px;
+  }
+  
+  .listHeader .search {
+    display: flex;
+    align-items: center;
+  }
+  .listHeader .search .label {
+    margin-bottom: 0px;
+    margin-right: 10px;
+  }
+  .productPrice{
+    text-align: right;
+    font-size: 2rem;
+  }
+  .productMain{
+    border: 0.5px solid black;
+    margin: 5px;
+    padding: 5px;
+    gap: 5px;
+  }
+  .dark {
+    background-color: #333;
+    color: #fff !important;
+  }
+ 
+ .dark .panel
+ {
+  background-color: grey;
+  color: #fff;
+ }
+ .dark .is-3,
+ .dark .label
+ {
+  color: #fff;
+ }
